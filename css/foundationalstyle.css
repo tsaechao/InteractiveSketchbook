@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+    color: #d6d6d6;
+}
+
+a:visited {
+    color: #ccdbe5;
+}
+
+nav {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    color: #342f35;
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+}
