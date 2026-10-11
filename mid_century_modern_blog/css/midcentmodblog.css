@@ -1,0 +1,126 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+* { 
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+hr {
+    color: white
+}
+
+body {
+    background-color: aliceblue;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    display: inline-flex;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    color: #047f8c;
+    text-align: center;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: 16px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+h1 {
+    text-align: center;
+    color: #3a400c;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: 37px;
+  font-weight: 600;
+  font-style: normal;
+  margin: 30px;
+}
+
+h3 {
+    color: #047f8c;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: 18px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-size-adjust: 22.5px;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-size-adjust: 15px;
+  text-align: justify;
+}
+
+li {
+    color: #3a400c;
+    text-transform: lowercase;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: 16px;
+  font-weight: 600;
+  font-style: normal;
+  list-style-type: disc;
+}
+
+footer {
+    text-align: center;
+}
+
+.special {
+ text-align: center;
+ text-transform: lowercase;
+ font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-size-adjust: 15px;
+  color: #3a400c;
+}
+
+.social-links {
+ text-transform: uppercase;
+ font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: 16px;
+  font-weight: 600;
+  font-style: normal;
+  list-style-type: disc;
+  color: #3a400c;
+}
+
+.bottom {
+    background-color: #04adbf;
+}
+
+.images {
+  display: flex;   
+  gap: 3px;
+  float: left;
+}
+
+.images img {
+  width: 100%;         
+  max-width: 33.33%;   
+  height: auto;        
+}

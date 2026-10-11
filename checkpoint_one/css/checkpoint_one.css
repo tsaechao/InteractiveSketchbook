@@ -11,13 +11,18 @@ for now, you can leave these alone */
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
 
-body {
 
-    color: #26241C;
-    background-color: #F2F0D8;
-}
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+h4 {
+    color: #b681a150;
+    margin: 15px;
+}
+
+p{
+    margin: 5px;
 }

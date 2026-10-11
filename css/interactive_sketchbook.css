@@ -14,6 +14,26 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 
 img {
-    max-width: 100%;
+    display: block;
+    width: 50%;
     height: auto;
+    margin: auto;
+}
+
+h5 {
+text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
 }
