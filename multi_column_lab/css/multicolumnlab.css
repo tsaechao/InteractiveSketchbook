@@ -87,6 +87,8 @@ STEPS 1, 2 & 3 are in the index.html file
  padding: 20px 100px 20px 20px;
  width: 100%;
 }
+
+
 /* 4. Add display: flex; to flex-container */
 /* 5. Add flex-direction: row; to flex-container; */
 /* 6. Give each column wrapper (flex item) a width in percentages, adjust margin and padding so that it is visually appealing */
