@@ -77,13 +77,15 @@ STEPS 1, 2 & 3 are in the index.html file
 }
 
 #lyrics {
- border: 2px black solid;
- padding: 20px 
+ margin: 10px;
+ padding: 20px;
+ width: 100%;
 }
 
 #albuminfo {
- border: 2px red solid;
- padding: 20px 
+ margin: 10px;
+ padding: 20px 100px 20px 20px;
+ width: 100%;
 }
 /* 4. Add display: flex; to flex-container */
 /* 5. Add flex-direction: row; to flex-container; */
