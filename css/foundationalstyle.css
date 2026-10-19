@@ -9,9 +9,13 @@ a:visited {
 }
 
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    gap: 1%;
 }
 
 body {
@@ -19,3 +23,4 @@ body {
     background-color: #fafafa;
     font-family: Arial, Helvetica, sans-serif;
 }
+
