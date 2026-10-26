@@ -42,11 +42,15 @@ h3 {
     padding: 1%;
     margin: 1%;
     gap: 2%;
+    justify-content: space-evenly;
+    align-content: center;
+
 }
 
 #column {
     width: 33.33%;
 }
 
-
-
+#name {
+ color: #b681a150;
+}

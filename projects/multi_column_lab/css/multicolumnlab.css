@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+nav {
+  text-transform: lowercase;
+}
+
 body {
   background-color: #F2EBDC;
   color: #0d0d0d;

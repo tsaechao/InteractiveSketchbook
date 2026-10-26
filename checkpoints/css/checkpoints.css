@@ -1,0 +1,42 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Css is how we add all things style, below there are two simple styles added
+go ahead and play with these, can you get the colors to change? What do you notice?
+ */
+
+a {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    width: 100%;
+    padding: 5%;
+    margin: 1%;
+    gap: 2%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+
+
+#reflections {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    margin: 1%;
+    justify-content: center;
+    align-self: center;
+    font-size: 20px;
+}

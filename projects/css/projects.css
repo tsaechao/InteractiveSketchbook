@@ -1,0 +1,28 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#container {
+    display: inline-grid;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+    padding: 5%;
+    margin: 1%;
+    gap: 2%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+
