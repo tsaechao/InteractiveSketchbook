@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>positioning elements</title>
+    <link rel="stylesheet" href="https://use.typekit.net/azk2aca.css">
+    <link rel="stylesheet" href="css/positioning_lab.css">
+</head>
+<body>
+ <div id="nav">
+ <nav>
+      <a href="../../index.html">home</a>
+      <a href="../../about/about.html">about</a>
+      <a href="../../inspo/inspo.html">inspo</a>
+      <a href="../projects.html">projects</a>
+      <a href="../../checkpoints/checkpoints.html">checkpoints</a>
+  </nav>
+  </div>
+  <header>
+  	<h1>positioning elements</h1>
+  </header>
+  <section>
+    <h3>Static</h3><p>default, as-is behavior</p>
+    <h3>Relative</h3><p>this positions a child relative to its parent. by giving an element a relative position, we can place it outside the normal flow of where it would be- but it still impacts other elements</p>
+    <h3>Absolute</h3><p>this takes the element out of the line up and no longer impacts elements around it, BUT you have to apply position:relative to a parent container
+      </p>
+    <h3>Fixed</h3><p>positioned in relation to the browser window, it just stays put!</p>
+    <h3>***Sticky***</h3><p>this one is a little more advanced, and we won’t get into it yet, but perhaps challenge yourself and your project to see if you can figure it out?</p><br>
+    <h3>Next up: z-index</h3><p>this is how we control layering when we are using positioning. if an element has a position, you can add a z-index, the larger the number the closer to the top.<br>
+    0=bottom 100=top<br>
+    think of z-index like the “bring to front” or “send to back” in design software.</p>
+    <br>
+    <p>for more information <a href="https://docs.google.com/presentation/d/1l5xqA2J6o3fNxPjc018LBTOWBgWTk6ssM02cNlLk4TU/edit?usp=sharing" target="_blank">click here</a></p>
+  </section>
+
+	<div class="overlay-wrapper">
+	  <img src="img/knollflower.gif" alt="knoll flower" />
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+	</div>
+
+  
+  <div id="reflection">
+  <p>
+  In this exercise, it's helped my understanding on how positioning can be adjusted and affect elements on a page. Finally understanding how relative, absolute and static positioning really affects how elements interact with each other on a page, I can go back and adjust pages where my alignment and positioning is a bit off and no longer have to go in blindly and experimenting every time. The z-index would also be really cool in a page where you want to layer several elements and think it can be useful for more “complex” pages. For the section, all I did was make the position static as I didn’t want to do anything crazy and found that making the position absolute made the header overlap and cover the content. As for troubleshooting, because I just followed the class lesson everything went by smoothly with the exception of the dots where I had to stray away from the instructions as they weren’t showing on my page with the sizing that the instructions listed. Overall, I think overusing positions can become really complicated quickly and you can easily lose track of all of your z-indexes, which is why creating parent containers makes it easier to keep track of elements and adjust them simultaneously.    </p>
+ </div>
+  <footer>
+    <a href="#">footer nav</a>
+    <h3>fix the footer to the bottom</h3>
+ 
+  </footer>
+  
+</body>
+</html>

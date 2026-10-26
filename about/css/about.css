@@ -14,12 +14,14 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 #box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     padding: 1%;
     margin: 1%;
     gap: 2%;
+    align-items: center;
+    width: 100%;
 }
 
 #text {
@@ -27,7 +29,8 @@ go ahead and play with these, can you get the colors to change? What do you noti
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    width: 35%;
+    align-items: center;
+    width: 50%;
 }
 
 h2 {
