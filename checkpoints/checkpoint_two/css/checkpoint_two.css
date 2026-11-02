@@ -15,7 +15,7 @@ img {
 }
 
 h4 {
-    color: #b681a150;
+    color: #b681a175;
     margin: 15px;
 }
 
@@ -48,13 +48,22 @@ h3 {
     align-content: center;
 }
 
-#img {
+#img1 {
     display: flex;
     flex-direction: row;
     flex: 33.33%;
     box-sizing: border-box;
-    width: 31.5%;
+    width: 32%;
     gap: 3%;
     align-content: center;
 }
 
+#img2 {
+    display: flex;
+    flex-direction: row;
+    flex: 33.33%;
+    box-sizing: border-box;
+    width: 49%;
+    gap: 3%;
+    align-content: center;
+}
