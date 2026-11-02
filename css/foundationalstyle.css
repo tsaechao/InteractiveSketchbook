@@ -9,7 +9,7 @@ a:visited {
     color: #bccfdb;
 }
 
-nav {
+.main_nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,11 @@ nav {
     text-align: center;
     gap: 4%;
     font-size: 145%;
+}
+
+.indv:hover {
+    font-size: 147%;
+    transition-duration: 0.5s;
 }
 
 body {
