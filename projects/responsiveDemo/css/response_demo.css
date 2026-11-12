@@ -127,6 +127,15 @@ img {
   background-color: cyan;
 
 }
+.main_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    gap: 4%;
+    font-size: 145%;
+}
 
 #media {
   background-color: hotpink;
@@ -160,7 +169,6 @@ img {
   }
   #mediaImages {
     width: 100%;
-    
   }
 
 }
